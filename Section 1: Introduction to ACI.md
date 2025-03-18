@@ -8,6 +8,13 @@
 - complete infra will be managed by application via GUI.
 - Using policy server called APIC (Application Policy Infrastructure Controller)
 - It is Cisco's approach to Software defined Network (SDN).
+- Policy based network.
+- What is a policy?
+   - "a set of guidelines or rules that determine a course of action."
+   - ex: a no parking sign.
+   - ex: Traffic going from host to another must go through a firewall. (ACL filter)
+- Setting up ACI initially is alot of work but the effort pays off in the long run. Imagine trying to configure QoS on 50 routers in your network! Now you can do it through simple scripts, push them to the endpoints via the APIC server and that's it!
+- 
 
 
 #### What is APIC?
