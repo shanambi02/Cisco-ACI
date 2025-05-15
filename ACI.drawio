@@ -16,7 +16,7 @@
         <mxCell id="MbZOapZvWdYH4foBwSUE-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://rednectar.net/wp-content/uploads/2020/10/tenants-1.jpg;" vertex="1" parent="1">
           <mxGeometry x="34" y="648" width="630.29" height="338" as="geometry" />
         </mxCell>
-        <mxCell id="MbZOapZvWdYH4foBwSUE-6" value="VRF or &quot;Zone&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MbZOapZvWdYH4foBwSUE-6" value="VRF or &quot;Zone&quot;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="373" y="225" width="293" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MbZOapZvWdYH4foBwSUE-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
