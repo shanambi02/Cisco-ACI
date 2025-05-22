@@ -63,7 +63,7 @@
         <mxCell id="67bZv8MbT5_079uhrviZ-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
           <mxGeometry x="250" y="310" width="160" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="67bZv8MbT5_079uhrviZ-2" value="DB_VM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="67bZv8MbT5_079uhrviZ-2" value="DB_VM" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="270" y="660" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="67bZv8MbT5_079uhrviZ-3" value="VM_EPG" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -72,7 +72,7 @@
         <mxCell id="67bZv8MbT5_079uhrviZ-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="630" y="310" width="160" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="67bZv8MbT5_079uhrviZ-5" value="External switch (acting as Bare Metal Server)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="67bZv8MbT5_079uhrviZ-5" value="External switch (acting as Bare Metal Server)" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="653" y="660" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="67bZv8MbT5_079uhrviZ-6" value="BARE-METAL_EPG" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
