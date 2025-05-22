@@ -115,10 +115,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="88n9UyIRFi7ec0aVRhyz" name="Page-3">
-    <mxGraphModel dx="1371" dy="822" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1613" dy="967" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5i9OEsALyRuZc-OMYZJd-23" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="84.5" y="635" width="647.5" height="151" as="geometry" />
+        </mxCell>
         <mxCell id="5i9OEsALyRuZc-OMYZJd-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="176" y="22" width="276" height="171" as="geometry" />
         </mxCell>
@@ -168,16 +171,40 @@
           <mxGeometry x="934" y="592" width="550" height="94" as="geometry" />
         </mxCell>
         <mxCell id="5i9OEsALyRuZc-OMYZJd-16" value="External Bridged domain" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="286" y="741" width="120" height="80" as="geometry" />
+          <mxGeometry x="931" y="737" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5i9OEsALyRuZc-OMYZJd-17" value="An&#xa;External Bridged Domain is required in order to configure layer 2 connectivity to external networks." style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="424" y="746" width="193" height="65" as="geometry" />
+          <mxGeometry x="1069" y="742" width="193" height="65" as="geometry" />
         </mxCell>
         <mxCell id="5i9OEsALyRuZc-OMYZJd-18" value="External Bridged Network" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="179" y="438" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5i9OEsALyRuZc-OMYZJd-19" value="which will contain all of the necessary&#xa;information to create a layer 2 connection between the leaf switch and an external VLAN." style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="50" y="432" width="124" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="5i9OEsALyRuZc-OMYZJd-20" value="CONTRACT" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="321" y="670.5" width="176" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5i9OEsALyRuZc-OMYZJd-21" value="EPG inside local BD" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="119.5" y="670.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5i9OEsALyRuZc-OMYZJd-22" value="External EPG also inside same subnet (local BD)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="579.5" y="670.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5i9OEsALyRuZc-OMYZJd-24" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;width=11;endSize=9.31;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="237" y="710" as="sourcePoint" />
+            <mxPoint x="322" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5i9OEsALyRuZc-OMYZJd-26" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;width=11;endSize=9.31;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="497" y="710" as="sourcePoint" />
+            <mxPoint x="582" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5i9OEsALyRuZc-OMYZJd-27" value="L2 Bridge domain extension" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="321" y="608" width="177" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
