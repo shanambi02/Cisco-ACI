@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.4" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.4" pages="3">
   <diagram name="ACI_Topology_Template" id="8YBjCNZQo-VEFcgtpsX_">
     <mxGraphModel dx="1371" dy="820" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -179,6 +179,83 @@
         </mxCell>
         <mxCell id="_o4MJCuwgjhQZvHGUnCJ-10" value="EndPoint" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="a-Vy68BldqI1Vqv9vZuS-1">
           <mxGeometry x="266" y="854" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="v74Yzz_leTZSKR18V0tT" name="Remote leaf build">
+    <mxGraphModel dx="1371" dy="820" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3H3WgAMh3FHxyndtAfn0-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="318" y="91" width="464" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="3H3WgAMh3FHxyndtAfn0-3" value="Remote DC" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="669" y="67" width="113" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3H3WgAMh3FHxyndtAfn0-4" value="Remote TEP pool for all the devices.&lt;div&gt;/24&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="216" y="100" width="192" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="3fPWxtRbiBXyF9ayPkZa-1" value="Remote Leaf-1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="438" y="144" width="63" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="3fPWxtRbiBXyF9ayPkZa-2" value="Remote Leaf-2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="601" y="147" width="63" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="3fPWxtRbiBXyF9ayPkZa-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="441" y="269" width="60" height="244" as="geometry" />
+        </mxCell>
+        <mxCell id="3fPWxtRbiBXyF9ayPkZa-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3fPWxtRbiBXyF9ayPkZa-6" source="3fPWxtRbiBXyF9ayPkZa-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fPWxtRbiBXyF9ayPkZa-16" value="10G" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3fPWxtRbiBXyF9ayPkZa-4">
+          <mxGeometry x="0.3831" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fPWxtRbiBXyF9ayPkZa-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3fPWxtRbiBXyF9ayPkZa-6" source="3fPWxtRbiBXyF9ayPkZa-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fPWxtRbiBXyF9ayPkZa-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="3fPWxtRbiBXyF9ayPkZa-6">
+          <mxGeometry y="69" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3fPWxtRbiBXyF9ayPkZa-14" value="DWDM&lt;div&gt;optical fiber link&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3fPWxtRbiBXyF9ayPkZa-6">
+          <mxGeometry y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3fPWxtRbiBXyF9ayPkZa-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="631" y="267" width="60" height="244" as="geometry" />
+        </mxCell>
+        <mxCell id="3fPWxtRbiBXyF9ayPkZa-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3fPWxtRbiBXyF9ayPkZa-7" source="3fPWxtRbiBXyF9ayPkZa-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fPWxtRbiBXyF9ayPkZa-17" value="10G" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3fPWxtRbiBXyF9ayPkZa-8">
+          <mxGeometry x="0.3522" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fPWxtRbiBXyF9ayPkZa-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3fPWxtRbiBXyF9ayPkZa-7" source="3fPWxtRbiBXyF9ayPkZa-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3fPWxtRbiBXyF9ayPkZa-10" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="3fPWxtRbiBXyF9ayPkZa-7">
+          <mxGeometry y="69" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3fPWxtRbiBXyF9ayPkZa-15" value="DWDM&lt;div&gt;optical fiber link&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3fPWxtRbiBXyF9ayPkZa-7">
+          <mxGeometry y="107" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3fPWxtRbiBXyF9ayPkZa-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="331" y="513" width="439" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="3fPWxtRbiBXyF9ayPkZa-12" value="IPN" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="667" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
