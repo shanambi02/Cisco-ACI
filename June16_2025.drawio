@@ -78,6 +78,9 @@
       <root>
         <mxCell id="a-Vy68BldqI1Vqv9vZuS-0" />
         <mxCell id="a-Vy68BldqI1Vqv9vZuS-1" parent="a-Vy68BldqI1Vqv9vZuS-0" />
+        <mxCell id="_o4MJCuwgjhQZvHGUnCJ-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=hatch;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="a-Vy68BldqI1Vqv9vZuS-1">
+          <mxGeometry x="136" y="749" width="187" height="111" as="geometry" />
+        </mxCell>
         <mxCell id="a-Vy68BldqI1Vqv9vZuS-2" value="LEAF-2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a-Vy68BldqI1Vqv9vZuS-1">
           <mxGeometry x="347" y="385" width="193" height="80" as="geometry" />
         </mxCell>
@@ -151,7 +154,7 @@
           <mxGeometry x="189.5" y="755" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_o4MJCuwgjhQZvHGUnCJ-3" value="BM traffic is coming in tagged as VLAN100" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="a-Vy68BldqI1Vqv9vZuS-1">
-          <mxGeometry x="241" y="701" width="60" height="30" as="geometry" />
+          <mxGeometry x="243" y="687" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_o4MJCuwgjhQZvHGUnCJ-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="a-Vy68BldqI1Vqv9vZuS-1" source="_o4MJCuwgjhQZvHGUnCJ-2" target="_o4MJCuwgjhQZvHGUnCJ-0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -172,7 +175,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_o4MJCuwgjhQZvHGUnCJ-6" value="eth 1/1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;" vertex="1" parent="a-Vy68BldqI1Vqv9vZuS-1">
-          <mxGeometry x="207" y="465" width="45" height="45" as="geometry" />
+          <mxGeometry x="207" y="441" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="_o4MJCuwgjhQZvHGUnCJ-10" value="EndPoint" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="a-Vy68BldqI1Vqv9vZuS-1">
+          <mxGeometry x="266" y="854" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
